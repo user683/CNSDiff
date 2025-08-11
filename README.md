@@ -2,6 +2,7 @@
 
 ![Model Structure](model_structure.png)
 
+
 In this paper, we propose a novel method named Causal
 Negative Sampling via Diffusion (CNSDiff). By synthesizing nega-
 tive samples in the latent space via a conditional diffusion process,
