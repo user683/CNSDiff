@@ -1,17 +1,8 @@
 ## Causal Negative Sampling via Diffusion Model for Out-of-Distribution Recommendation
 
 ![Model Structure](model_structure.png)
-Heuristic negative sampling enhances recommendation perfor-
-mance by selecting negative samples of varying hardness levels
-from predefined candidate pools to guide the model toward learn-
-ing more accurate decision boundaries. However, our empirical
-and theoretical analyses reveal that unobserved environmental con-
-founders (e.g., exposure or popularity biases) in candidate pools
-may cause heuristic sampling methods to introduce false hard nega-
-tives (FHNS). These misleading samples can encourage the model to
-learn spurious correlations induced by such confounders, ultimately
-compromising its generalization ability under distribution shifts.
-To address this issue, we propose a novel method named Causal
+
+In this paper, we propose a novel method named Causal
 Negative Sampling via Diffusion (CNSDiff). By synthesizing nega-
 tive samples in the latent space via a conditional diffusion process,
 CNSDiff avoids the bias introduced by predefined candidate pools
